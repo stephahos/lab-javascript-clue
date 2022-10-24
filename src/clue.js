@@ -129,14 +129,19 @@ function selectRandom(anyGameArr) {
 }
 
 function pickMystery() {
-let newObject= {
-    let suspect = selectRandom(suspectsArray),
-    let weapon = selectRandom(weaponsArray),
-    let room = selectRandom(roomsArray)
+    let newMystery = {
+    suspect : selectRandom(suspectsArray),
+    weapon : selectRandom(weaponsArray),
+    room : selectRandom(roomsArray),
 }
+return newMystery 
 }
 
 // ITERATION 3
 
-function revealMystery() {}
+function revealMystery() {
+
+
+
+}
 
